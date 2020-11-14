@@ -1,0 +1,20 @@
+{
+    "name": "setuf/testproject1",
+    "description": "This is a test project",
+    "require": {},
+    "autoload": {
+        "files":[
+            "realme/realme2.php",
+            "redmi/redmi2.php",
+            "redmi/redmi3.php"
+        ],
+        "classmap": [
+            "./realme/realmemobile.php",
+            "./redmi/redmimobile.php",
+            "myclasses/"
+        ],
+        "exclude-from-classmap": [
+            "myclasses/class2.php"
+        ]
+    }
+}
